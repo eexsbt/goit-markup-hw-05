@@ -14,7 +14,7 @@ window.addEventListener(
       // upward scroll
       navbar.classList.add("visible");
     } // else was horizontal scroll
-    //lastScrollTop = scrollY <= 0 ? 0 : scrollY;
+    ///lastScrollTop = scrollY <= 0 ? 0 : scrollY;
   },
   { passive: true }
 );
